@@ -1,0 +1,15 @@
+@import "./tailwind.css";
+
+body {
+  background: lightblue;
+
+  /* Body correctly turns pink past 640px */
+  @media (max-width: theme(--breakpoint-mobile)) {
+    background: pink;
+  }
+
+  /* Body should turn lightyellow past 960px but does not */
+  @media (width >=theme(--breakpoint-tablet)) {
+    background: lightyellow;
+  }
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-mobile: 640px;
+  --breakpoint-tablet: 960px;
+  --breakpoint-desktop: 1240px;
+}
